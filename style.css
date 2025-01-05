@@ -1,0 +1,25 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.marksheet{
+    height: 300px;
+    width: 300px;
+    background-color: dodgerblue;
+    position: absolute;
+    left: 480px;
+    top: 150px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+
+.marksheet:hover{
+    color: whitesmoke;
+    box-shadow: 5px 5px 40px lightseagreen;
+    transition: all 0.25s ease-in;
+}
+
